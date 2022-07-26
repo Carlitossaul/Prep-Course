@@ -2,8 +2,8 @@ function saludar (usuario){
     return "hola " + usuario + "!";
 }
 
-function crearsaludo(usuario, cb){
-    return cb(usuario)
+function crearsaludo(usuario, c){
+    return c(usuario)
 }
 
-console.log(crearsaludo('charlie', saludar))
+console.log(crearsaludo('charlie', saludr))

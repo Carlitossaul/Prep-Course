@@ -1,16 +1,9 @@
-function esprimo(){
-if(numero < 10){ 
-return console.log(true)
-
+function decirHolaAlUsuario(usuario) {
+  return "Hola " + usuario + "!";
 }
 
-for (var i = 2; i < numero; i++)
-  if(numero % 2 === 0)
-    return console.log(true)
-    else return console.log(false)
+function crearSaludo(usuario, cb) {
+  return cb(usuario);
+}
 
-{
-var numero= 8
-esprimo(numero)
-}
-}
+console.log(crearSaludo("Carlos", decirHolaAlUsuario));
