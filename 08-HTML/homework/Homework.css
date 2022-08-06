@@ -1,6 +1,12 @@
 h1{
     color:dodgerblue
 }
+h3{
+    color: blue;
+}
+h4{
+    color: blue;
+}
 img{
     width: 400px;
 }
@@ -15,6 +21,14 @@ img{
     font-size: 18px;
     margin: 50px;
 }
+body{ background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEX48gD48QL88QH57QH48Af47hP98AX78gH57gD36wP29AP17wD36xLz8gH78QL28Qv29Vfz8Ur79gb/7g357yP47TH38kX08T329iz4+Ej391D181Ty8kT070T08i718zn59F3y9GX38GDz7U388lfDi2QHAAAC8ElEQVR4nO3Ui5KaMACF4ZAEEhQDaOsNda32/Z+xAbQil9a2Q53Dnm92FEM28AsowqkTwaSJ2rtPYzSiKtQTZa2tIqd7AZ1z1fW736jTY4wRYjnlayil9JFB+TBO1GcqnCqf5yNZiIyF+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIj4X4WIiPhfhYiI+F+FiIT1ZYiGz6haYym83efSKjYeFkLJfvPoORBca8+xRGFkWRCMaxmC1GWrnFORcFYiGcCKLeCWMV+u9vpJVb/lehaH90xvj3+fCEV5f69eRuoahfxGPbVqIGedca/xP+f2XdWX9uLSSHdQ8pI6uskj3jUpSB2ljjHwp/rLK2XDtycuX3Gr+rfhbVMx9W96l/4Bfxl9Af8+fH5l453Gg7x+2O3MaVivTc08qlaaq1ts6GsY7D5Escxyqx2oUqEuW2UnGfofFXqKrQOfPXK7xwJsnXdVZk2Xqz3e12+32+2WzyIs8PRXY4nk7rj+O1OMXi8YXUf90vyj7vtX1/rfnlGSl//5Rv3dVe0Z3ZHKm2bZyczt8ul8u5WGfZPiuu1++XIj9klyLLfeHxY308n8Jb4fOJPHTHh2Y29t5eAuPs0N7f6c5sjtTb1l/XJJyHcZput4tFmialMKxek3JfkqTa3gsft8Pzkdo3S+/d0p5fn4V/9NuFvcfoLezMbI7ct8tfIK1WcboQM/9bM6+e2fLi+kG/qXWwUuoHA3hMWCDaoQcAAAAASUVORK5CYII=");
+}
+#div3 {
+   display: grid;
+   place-items:center
+}
 body{
-    background-image: url("https://carontestudio.com/img/caronte-web-estudio-logo.png")
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
 }
