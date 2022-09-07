@@ -1,13 +1,13 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'Rio';
+const nuevaString = 'River';
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum = 10;
+const nuevoNum = 11;
 
 // Crea una variable booleana:
-const nuevoBool = true;
+const nuevoBool = false;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - 5 === 5;
@@ -116,7 +116,7 @@ function elevarAlCuadrado(num) {
   // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
-  return num ** 2 
+  return num ** 2
 }
 
 function elevarAlCubo(num) {
@@ -152,13 +152,13 @@ function numeroRandom() {
 }
 
 function esPositivo(numero) {
-  //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo. 
+  //La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo.
   //Si el número es positivo, devolver ---> "Es positivo"
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
-  if(numero > 0){ 
+  if(numero > 0){
     return "Es positivo";
-  } else if(numero < 0){ 
+  } else if(numero < 0){
     return "Es negativo";
   } else (numero === 0)
     return false;
@@ -176,7 +176,7 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  return nombre + " " + apellido 
+  return nombre + " " + apellido
 }
 
 function obtenerSaludo(nombre) {
@@ -216,18 +216,18 @@ function deEuroAdolar(euro){
 
 
 function esVocal(letra){
-  //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”. 
-  //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle 
+  //Escribe una función que reciba una letra y, si es una vocal, muestre el mensaje “Es vocal”.
+  //Verificar si el usuario ingresó un string de más de un carácter, en ese caso, informarle
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
   if(letra.length === 2){
     return "Dato incorrecto"
-  } 
+  }
     else if (letra === "a" || letra === "e" || letra === "i" || letra === "o" || letra === "u"){
      return "Es vocal"
-    }    
-    else return "Dato incorrecto"  
+    }
+    else return "Dato incorrecto"
 }
 
 
